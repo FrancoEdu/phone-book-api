@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\phone-book-sever\\phoneBook_API\\phoneBook_API.csproj": {}
+    "C:\\Projetos\\API\\phone-book-api\\phoneBook_API\\phoneBook_API.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\phone-book-sever\\phoneBook_API\\phoneBook_API.csproj": {
+    "C:\\Projetos\\API\\phone-book-api\\phoneBook_API\\phoneBook_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\phone-book-sever\\phoneBook_API\\phoneBook_API.csproj",
+        "projectUniqueName": "C:\\Projetos\\API\\phone-book-api\\phoneBook_API\\phoneBook_API.csproj",
         "projectName": "phoneBook_API",
-        "projectPath": "C:\\Projetos\\phone-book-sever\\phoneBook_API\\phoneBook_API.csproj",
+        "projectPath": "C:\\Projetos\\API\\phone-book-api\\phoneBook_API\\phoneBook_API.csproj",
         "packagesPath": "C:\\Users\\dudus\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\phone-book-sever\\phoneBook_API\\obj\\",
+        "outputPath": "C:\\Projetos\\API\\phone-book-api\\phoneBook_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,6 +76,14 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [

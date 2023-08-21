@@ -7,7 +7,7 @@ using phoneBook_API.Models;
 namespace phoneBook_API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[/]")]
     public class phoneBook : Controller
     {
         private PhoneContext _context;
